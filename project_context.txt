@@ -1,0 +1,284 @@
+Project structure:
+.
+├── API.md
+├── Changes.txt
+├── Dockerfile
+├── LICENSE.txt
+├── Makefile
+├── README.mkdn
+├── _start -> start.html
+├── android-chrome-192x192.png
+├── apache
+│   ├── apache-ldap.conf
+│   └── apache-proxy.conf
+├── app-graphics
+│   ├── ethercalc-128.svg
+│   ├── ethercalc-150.svg
+│   └── ethercalc-24.svg
+├── app.js
+├── apple-touch-icon.png
+├── bin
+│   ├── ethercalc
+│   ├── run.sh
+│   └── runSafe.sh
+├── browserconfig.xml
+├── codebase_files.txt
+├── db.js
+├── docker-compose.yml
+├── dotcloud.js
+├── dotcloud.yml
+├── emailer.js
+├── exports.js
+├── favicon-16x16.png
+├── favicon-32x32.png
+├── favicon.ico
+├── images
+│   ├── sc_1x1.gif
+│   ├── sc_aligncenter.png
+│   ├── sc_alignleft.png
+│   ├── sc_alignright.png
+│   ├── sc_autosum.png
+│   ├── sc_bordersoff.png
+│   ├── sc_borderson.png
+│   ├── sc_chooserarrow.gif
+│   ├── sc_commentbg.gif
+│   ├── sc_copy.png
+│   ├── sc_cursorinsertleft.gif
+│   ├── sc_cursorinsertup.gif
+│   ├── sc_cut.png
+│   ├── sc_defaultcolor.gif
+│   ├── sc_delete.png
+│   ├── sc_deletecolumns.png
+│   ├── sc_deleterows.png
+│   ├── sc_divider1.png
+│   ├── sc_downsearch.png
+│   ├── sc_drag-handles.gif
+│   ├── sc_drag-handles.png
+│   ├── sc_endcap-h.gif
+│   ├── sc_endcap-v.gif
+│   ├── sc_filldown.png
+│   ├── sc_fillright.png
+│   ├── sc_formatpaintbrush.png
+│   ├── sc_hidecol.png
+│   ├── sc_hiderow.png
+│   ├── sc_insertcolumns.png
+│   ├── sc_insertformula.png
+│   ├── sc_inserthyperlink.png
+│   ├── sc_insertrows.png
+│   ├── sc_less-hd.gif
+│   ├── sc_less-hh.gif
+│   ├── sc_less-hn.gif
+│   ├── sc_less-vd.gif
+│   ├── sc_less-vh.gif
+│   ├── sc_less-vn.gif
+│   ├── sc_listbox.png
+│   ├── sc_lock.png
+│   ├── sc_lockbg.gif
+│   ├── sc_logo.gif
+│   ├── sc_main-h.gif
+│   ├── sc_main-v.gif
+│   ├── sc_mergecells.png
+│   ├── sc_more-hd.gif
+│   ├── sc_more-hh.gif
+│   ├── sc_more-hn.gif
+│   ├── sc_more-vd.gif
+│   ├── sc_more-vh.gif
+│   ├── sc_more-vn.gif
+│   ├── sc_movefrom.gif
+│   ├── sc_movefromoff.gif
+│   ├── sc_moveinsert.gif
+│   ├── sc_moveinsertoff.gif
+│   ├── sc_moveoff.gif
+│   ├── sc_movepaste.gif
+│   ├── sc_movepasteoff.gif
+│   ├── sc_paneslider-h.gif
+│   ├── sc_paneslider-v.gif
+│   ├── sc_paste.png
+│   ├── sc_range2.gif
+│   ├── sc_recalc.png
+│   ├── sc_redo.png
+│   ├── sc_scrollarea-h.gif
+│   ├── sc_scrollarea-v.gif
+│   ├── sc_swapcolors.png
+│   ├── sc_thumb-hd.gif
+│   ├── sc_thumb-hh.gif
+│   ├── sc_thumb-hn.gif
+│   ├── sc_thumb-vd.gif
+│   ├── sc_thumb-vh.gif
+│   ├── sc_thumb-vn.gif
+│   ├── sc_trackingline-h.gif
+│   ├── sc_trackingline-v.gif
+│   ├── sc_undo.png
+│   ├── sc_unhidebottom.gif
+│   ├── sc_unhideleft.gif
+│   ├── sc_unhideright.gif
+│   ├── sc_unhidetop.gif
+│   ├── sc_unlock.png
+│   └── sc_upsearch.png
+├── index.html
+├── l10n
+│   ├── de.json
+│   ├── en.json
+│   ├── es-ES.json
+│   ├── fr.json
+│   ├── ru-RU.json
+│   ├── zh-CN.json
+│   └── zh-TW.json
+├── main.js
+├── manifest.appcache
+├── manifest.json
+├── misc
+│   ├── archive.ls
+│   ├── build
+│   │   └── Dockerfile
+│   ├── ethercalc.sh
+│   ├── gentoo
+│   │   ├── conf.d
+│   │   └── init.d
+│   ├── linux-install-docker-and-compose.sh
+│   ├── restore.pl
+│   └── test-sumifs.ls
+├── mstile-150x150.png
+├── mstile-310x310.png
+├── multi
+│   ├── Makefile
+│   ├── foldr.ls
+│   ├── index.html
+│   ├── main.ls
+│   ├── styles.styl
+│   └── webpack.config.js
+├── nginx
+│   ├── conf
+│   │   ├── cors.conf
+│   │   ├── ethercalc.org.conf
+│   │   └── nginx.conf
+│   └── logs
+├── package-lock.json
+├── package.json
+├── panels.html
+├── player-broadcast.js
+├── player-graph.js
+├── player.js
+├── privacy.png
+├── project_context.txt
+├── requirements.txt
+├── robots.txt
+├── safari-pinned-tab.svg
+├── sc.js
+├── server.js -> app.js
+├── snapcraft.yaml
+├── src
+│   ├── app.ls
+│   ├── db.ls
+│   ├── dotcloud.ls
+│   ├── emailer.ls
+│   ├── main.ls
+│   ├── player-broadcast.ls
+│   ├── player-graph.ls
+│   ├── player.ls
+│   └── sc.ls
+├── stackato.yml
+├── start.html
+├── static
+│   ├── bootstrap.min.css
+│   ├── download.png
+│   ├── ethercalc.js
+│   ├── ethercalc.js.map
+│   ├── export.png
+│   ├── gear.png
+│   ├── images
+│   │   ├── ui-bg_diagonals-thick_90_eeeeee_40x40.png
+│   │   ├── ui-bg_glass_100_e4f1fb_1x400.png
+│   │   ├── ui-bg_glass_50_3baae3_1x400.png
+│   │   ├── ui-bg_glass_80_d7ebf9_1x400.png
+│   │   ├── ui-bg_highlight-hard_100_f2f5f7_1x100.png
+│   │   ├── ui-bg_highlight-hard_70_000000_1x100.png
+│   │   ├── ui-bg_highlight-soft_100_deedf7_1x100.png
+│   │   ├── ui-bg_highlight-soft_25_ffef8f_1x100.png
+│   │   ├── ui-icons_2694e8_256x240.png
+│   │   ├── ui-icons_2e83ff_256x240.png
+│   │   ├── ui-icons_3d80b3_256x240.png
+│   │   ├── ui-icons_72a7cf_256x240.png
+│   │   └── ui-icons_ffffff_256x240.png
+│   ├── img
+│   │   ├── davy
+│   │   └── right-graphite@2x.png
+│   ├── index.css
+│   ├── jquery-ui.min.css
+│   ├── jquery-ui.min.js
+│   ├── jquery.js
+│   ├── jszip.js
+│   ├── makeup.css
+│   ├── makeup.js
+│   ├── md5.js
+│   ├── multi.js
+│   ├── shim.js
+│   ├── socialcalc.css
+│   ├── start.css
+│   ├── start.sass
+│   ├── vex-theme-flat-attack.css
+│   ├── vex.combined.min.js
+│   ├── vex.css
+│   ├── xlsx.core.min.js
+│   └── xlsxworker.js
+├── supervisord.conf
+├── third-party
+│   ├── class-js
+│   │   ├── README
+│   │   └── lib
+│   └── wikiwyg
+│       ├── LICENSE
+│       └── lib
+├── webpack.config.js
+└── yarn.lock
+
+25 directories, 207 files
+Package.json content:
+{
+  "name": "ethercalc",
+  "description": "Multi-User Spreadsheet Server",
+  "version": "0.20201228.1",
+  "homepage": "http://ethercalc.net/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/audreyt/ethercalc"
+  },
+  "dependencies": {
+    "cors": "*",
+    "csv-parse": "^0.0.6",
+    "iconv-lite": "^0.4.13",
+    "xlsx": "^0.14.5",
+    "j": "0.4.5",
+    "livescript": "1.5.x",
+    "minimatch": "*",
+    "optimist": "*",
+    "redis": "0.12.x",
+    "socialcalc": "^2.3.0",
+    "uuid-pure": "*",
+    "xoauth2": "*",
+    "zappajs": "0.5.x"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.9.0",
+    "livescript-loader": "^0.1.5",
+    "react": "^0.12.1",
+    "react-basic-tabs": "^1.0.3",
+    "react-hot-loader": "^0.5.0",
+    "style-loader": "^0.8.2",
+    "stylus-loader": "^3.0.2",
+    "superagent": "^0.21.0",
+    "webpack": "^1.4.13",
+    "webpack-dev-server": "^1.6.6"
+  },
+  "subdomain": "ethercalc",
+  "bin": {
+    "ethercalc": "./bin/ethercalc"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  }
+}
