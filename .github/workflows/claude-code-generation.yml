@@ -159,6 +159,12 @@ jobs:
           
           def generate_code_with_claude(task_description, codebase_context):
               client = get_bedrock_client()
+
+              # ✅ Truncate to avoid model error
+              MAX_CONTEXT_LENGTH = 12000
+              if len(codebase_context) > MAX_CONTEXT_LENGTH:
+                  codebase_context = codebase_context[:MAX_CONTEXT_LENGTH] + "\n... (truncated)"
+
               
               prompt = f"""
           You are an expert software developer working on an Ionic React TypeScript application for government billing/invoicing.
